@@ -21,8 +21,8 @@ env:
 
 
 jobs:
-  build:
-
+  buildx:
+    name: Build and push images
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -82,7 +82,7 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           provenance: false # see https://github.com/n8n-io/n8n/issues/5394
-          platforms: linux/amd64,linux/aarch64
+          platforms: linux/amd64,linux/aarch64,linux/arm64,linux/arm/v7
 
 
       # Sign the resulting Docker image digest except on PRs.
