@@ -1,5 +1,5 @@
-FROM alpine:latest
-LABEL maintainer="Andrea Cuneo <andrea.cuneo@ark-energy.eu>" version="1.0.0"
+FROM docker.io/library/alpine:3.21.3
+LABEL version="0.1.0"
 
 ENV AzureAdDomain=\
     AzureAdClientId=\
