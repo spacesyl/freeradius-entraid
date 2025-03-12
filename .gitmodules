@@ -1,3 +1,4 @@
 [submodule "freeradius-oauth2-perl"]
 	path = freeradius-oauth2-perl
 	url = https://github.com/jimdigriz/freeradius-oauth2-perl.git
+	branch = main
