@@ -1,4 +1,4 @@
-FROM docker.io/library/alpine:3.24.1
+FROM docker.io/library/alpine:3.24.2
 LABEL version="0.1.0"
 
 ENV AzureAdDomain=\
